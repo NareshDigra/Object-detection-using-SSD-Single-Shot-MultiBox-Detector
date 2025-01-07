@@ -30,7 +30,7 @@ print("[INFO] accessing video stream...")
 if live_video:
     vs = cv2.VideoCapture(0)
 else:
-    vs = cv2.VideoCapture('SSD.mp4') # video ka path daalna jo RUN karne ke baad test karni hai if upr tune live_video ko False rakha hoga
+    vs = cv2.VideoCapture(video_of_people_walking (1080p).mp4') # video ka path daalna jo RUN karne ke baad test karni hai if upr tune live_video ko False rakha hoga
 
 while ret:
     ret, frame = vs.read()
