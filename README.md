@@ -64,15 +64,15 @@ Run the detection script:
 
 ``` confidence_level: Adjust the minimum confidence for displaying detections (default is 0.5). ```
 
-Code Walkthrough
+# Code Walkthrough
 
-Core Steps
+## Core Steps
 
-Load Model Files:
+### Load Model Files:
 
 ``` net = cv2.dnn.readNetFromCaffe(prototxt_path, caffemodel_path) ```
 
-Set GPU Acceleration:
+### Set GPU Acceleration:
 
 ``` net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA) ```
 ``` net.setPreferableTarget(cv2.dnn.DNN_TARGET_CUDA) ```
