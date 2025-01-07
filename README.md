@@ -115,7 +115,7 @@ Real-time detection with bounding boxes and labels displayed over detected objec
 
 ```For better performance on CPU, disable CUDA by setting use_gpu = False.```
 
-# Author
+# Author:
 
 ## Naresh Kumar
 
