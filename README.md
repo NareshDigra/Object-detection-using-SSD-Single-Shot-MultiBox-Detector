@@ -13,7 +13,7 @@ This repository demonstrates object detection using MobileNet SSD (Single Shot M
 
 # Requirements:
 
-## Dependencies
+## Dependencies:
 
 ### Make sure you have the following installed:
 
@@ -64,7 +64,7 @@ Run the detection script:
 
 ``` confidence_level: Adjust the minimum confidence for displaying detections (default is 0.5). ```
 
-# Code Walkthrough
+# Code Walkthrough:
 
 ## Core Steps:
 
