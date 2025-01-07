@@ -17,13 +17,13 @@ This repository demonstrates object detection using MobileNet SSD (Single Shot M
 
 ### Make sure you have the following installed:
 
-Python 3.7+
+```Python 3.7+```
 
-OpenCV
+```OpenCV```
 
-NumPy
+```NumPy```
 
-imutils
+```imutils```
 
 # Install the required Python packages using pip:
 
