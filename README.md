@@ -1,5 +1,5 @@
 # Object-detection-using-SSD-Single-Shot-MultiBox-Detector
-This repository demonstrates object detection using SSD (Single Shot MultiBox Detector) with OpenCV's Deep Neural Network (DNN) module. It is capable of detecting and labeling objects in real-time from a webcam or in pre-recorded videos.
+This repository demonstrates object detection using SSD (Single Shot MultiBox Detector). It is capable of detecting and labeling objects in real-time from a webcam or in pre-recorded videos.
 
 # Features
 
@@ -11,37 +11,6 @@ Customizable Confidence Threshold: Adjustable confidence level to filter predict
 
 GPU Acceleration: Option to leverage CUDA for faster detection (if a compatible GPU is available).
 
-# Requirements
-
-## Dependencies
-
-### Make sure you have the following installed:
-
-Python 3.7+
-
-OpenCV (with dnn module)
-
-NumPy
-
-imutils
-
-# Install the required Python packages using pip:
-
-pip install numpy imutils opencv-python
-
-# Model Files
-
-## You need the following files for MobileNet SSD:
-
-Prototxt File: Defines the architecture of the network.
-
-Path: ssd_files/MobileNetSSD_deploy.prototxt
-
-Caffe Model File: Pre-trained weights for the network.
-
-Path: ssd_files/MobileNetSSD_deploy.caffemodel
-
-# You can download these files from the official MobileNet SSD repository.
 
 # Usage
 
@@ -54,8 +23,7 @@ cd object-detection-ssd
 
 Run the detection script:
 
-python object_detection.py
-
+``` python object_detection.py ```
 # 3. Key Variables in the Code
 
 live_video: Set to True for live webcam feed or False to use a video file.
