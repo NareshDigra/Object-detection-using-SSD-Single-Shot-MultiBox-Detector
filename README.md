@@ -1,7 +1,7 @@
 # Object detection using SSD (Single Shot MultiBox Detector)
 This repository demonstrates object detection using MobileNet SSD (Single Shot MultiBox Detector). It is capable of detecting and labeling objects in real-time from a webcam or in pre-recorded videos.
 
-# Features
+# Features:
 
 ```Real-time Object Detection: Detect objects from live video feed or pre-recorded video.```
 
@@ -11,7 +11,7 @@ This repository demonstrates object detection using MobileNet SSD (Single Shot M
 
 ```GPU Acceleration: Option to leverage CUDA for faster detection (if a compatible GPU is available).```
 
-# Requirements
+# Requirements:
 
 ## Dependencies
 
@@ -29,7 +29,7 @@ imutils
 
 ``` pip install numpy imutils opencv-python ```
 
-# Model Files
+# Model Files:
 
 ## You need the following files for MobileNet SSD:
 
@@ -43,7 +43,7 @@ imutils
 
 # You can download these files from the official MobileNet SSD repository.
 
-# Usage
+# Usage:
 
 1. Clone the Repository
 
@@ -66,7 +66,7 @@ Run the detection script:
 
 # Code Walkthrough
 
-## Core Steps
+## Core Steps:
 
 ### Load Model Files:
 
@@ -107,7 +107,7 @@ Real-time detection with bounding boxes and labels displayed over detected objec
 
 ```['background', 'aeroplane', 'bicycle', 'bird', 'boat', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable', 'dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor']```
 
-# Notes
+# Notes:
 
 ```Ensure your prototxt and caffemodel files are in the correct paths.```
 
