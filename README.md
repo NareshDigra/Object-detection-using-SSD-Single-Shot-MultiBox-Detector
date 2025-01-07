@@ -3,13 +3,13 @@ This repository demonstrates object detection using MobileNet SSD (Single Shot M
 
 # Features
 
-Real-time Object Detection: Detect objects from live video feed or pre-recorded video.
+```Real-time Object Detection: Detect objects from live video feed or pre-recorded video.```
 
-MobileNet SSD: Utilizes a lightweight yet powerful model for efficient object detection.
+```MobileNet SSD: Utilizes a lightweight yet powerful model for efficient object detection.```
 
-Customizable Confidence Threshold: Adjustable confidence level to filter predictions.
+```Customizable Confidence Threshold: Adjustable confidence level to filter predictions.```
 
-GPU Acceleration: Option to leverage CUDA for faster detection (if a compatible GPU is available).
+```GPU Acceleration: Option to leverage CUDA for faster detection (if a compatible GPU is available).```
 
 # Requirements
 
