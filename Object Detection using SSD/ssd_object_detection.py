@@ -4,7 +4,8 @@ import imutils
 import cv2
 
 use_gpu = True
-live_video = True
+live_video = True # agar False karega toh live camera khulega
+                  # agar True rakhega toh jo video ka path niche code mei daala hoga woh khulega RUN karne pr
 
 
 confidence_level = 0.5
@@ -29,7 +30,7 @@ print("[INFO] accessing video stream...")
 if live_video:
     vs = cv2.VideoCapture(0)
 else:
-    vs = cv2.VideoCapture('SSD.mp4')
+    vs = cv2.VideoCapture('SSD.mp4') # video ka path daalna jo RUN karne ke baad test karni hai if upr tune live_video ko False rakha hoga
 
 while ret:
     ret, frame = vs.read()
