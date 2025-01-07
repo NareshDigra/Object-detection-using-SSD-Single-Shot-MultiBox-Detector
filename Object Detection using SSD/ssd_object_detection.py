@@ -17,7 +17,7 @@ CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
 
 COLORS = np.random.uniform(0, 255, size=(len(CLASSES), 3))
 
-net = cv2.dnn.readNetFromCaffe('ssd_files/MobileNetSSD_deploy.prototxt', 'ssd_files/MobileNetSSD_deploy.caffemodel') //path daal dena inki jagah apne model ki location ka tere laptop mei
+net = cv2.dnn.readNetFromCaffe('ssd_files/MobileNetSSD_deploy.prototxt', 'ssd_files/MobileNetSSD_deploy.caffemodel') #path daal dena inki jagah apne model ki location ka tere laptop mei
 
 if use_gpu:
     print("[INFO] setting preferable backend and target to CUDA...")
