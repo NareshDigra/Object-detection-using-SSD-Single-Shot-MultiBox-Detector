@@ -4,8 +4,8 @@ import imutils
 import cv2
 
 use_gpu = True
-live_video = True # agar False karega toh live camera khulega
-                  # agar True rakhega toh jo video ka path niche code mei daala hoga woh khulega RUN karne par
+live_video = True # agar True rakhega toh live camera khulega
+                  # agar False rakhega toh jo video ka path niche code mei daala hoga woh khulega...RUN karne par
 
 
 confidence_level = 0.5
